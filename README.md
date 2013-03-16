@@ -5,7 +5,9 @@ The menu is licensed under the GNU GPL version 2, copy available at http://www.g
 
 the crew
 ==
-meow: Programmer, project manager, feline
-ac: Super programmer, cubescript smartass
-mephisto: Parrticle nerd, designer
-kroltan: programmer, github ambassador
+Copyright (C) 2012 - 2013 meow of zombie-crew
+Copyright (C) 2012 - 2013 cm|ac
+Copyright (C) 2012 - 2013 Mephisto|BD|
+Copyright (C) 2012 - 2013 Bucco
+Copyright (C) 2013 Imperator Chairman Miau
+Copyright (C) 2013 Kroltan
