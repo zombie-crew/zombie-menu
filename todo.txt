@@ -1,0 +1,28 @@
+- guibutton "frequent use:" => should it really open the server browser?
+- buggy-master-mode-switch
+
+- make a better readme
+
+- different map realated todo's for every language?? makes this sense at all!?
+	=> if yes change the way the todos get saved
+		=> saves all to ONE list, so it would be possible to easily delete all todos
+
+- Random Notes:
+	* search for ">HERE" to find the lines on which i work atm
+	
+- English Translate:
+	* "current" should be called "background"
+	
+- German Translate:
+	* "Cube" should be in German "Cube" too, think of the game name :P
+	* "Map" should be also in German "Map"
+	
+	
+	
+	
+Changelog Beta 1:
+	-	a untitled-quit-button in the FAQ's removed (because its really not needed, or at least not there)
+	-	dynamic multi-language-FAQ-code
+	-	general more dynamic code
+	- 	removed unnecessary code
+	- 	improved some translatations

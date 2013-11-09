@@ -19,9 +19,17 @@ See the GNU General Public License for more details.
 
 the crew
 ==
-Copyright (C) 2012 - 2013 meow of zombie-crew
-Copyright (C) 2012 - 2013 cm|ac
-Copyright (C) 2012 - 2013 Mephisto|BD|
-Copyright (C) 2012 - 2013 Bucco
-Copyright (C) 2013 - Imperator Chairman Miau
-Copyright (C) 2013 - Kroltan
+2012 - 2013: 
+	- meow
+	- cm|ac
+	- Mephisto
+	- Bucco
+ 
+2013:
+	- Imperator Chairman Miau
+	- Kroltan
+	- Nooby
+	- Kroltan
+	- Phazonmadness
+	- 8073
+	- RaZgRiZ

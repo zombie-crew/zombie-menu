@@ -1,0 +1,52 @@
+case (zLICENSE) CC0 [
+	zLICENSE_NAME = $zLICENSE_CC0_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_CC0_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_CC0_SHORT
+	zLICENSE_+ = $zLICENSE_CC0_+
+	zLICENSE_SHORT_DE = $zLICENSE_CC0_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_CC0_+_DE
+] GPL [
+	zLICENSE_NAME = $zLICENSE_GPLV2_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_GPLV2_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_GPLV2_SHORT
+	zLICENSE_+ = $zLICENSE_GPLV2_+
+	zLICENSE_SHORT_DE = $zLICENSE_GPLV2_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_GPLV2_+_DE
+] ZLIB [
+	zLICENSE_NAME = $zLICENSE_ZLIB_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_ZLIB_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_ZLIB_SHORT
+	zLICENSE_+ = $zLICENSE_ZLIB_+
+	zLICENSE_SHORT_DE = $zLICENSE_ZLIB_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_ZLIB_+_DE
+]
+
+				$zQX "^f010"
+				sleep 1000 [
+					$zQX "^f09"
+					sleep 1200 [
+						$zQX "^f08"
+						sleep 1100 [
+							$zQX "^f07"
+							sleep 1050 [
+								$zQX "^f06"
+								sleep 1250 [
+									$zQX "^f05"
+									sleep 1150 [
+										$zQX "^f04"
+										sleep 1140 [
+											$zQX "^f03"
+											sleep 1220 [
+												$zQX "^f02"
+												sleep 1340 [
+													$zQX "^f01"
+													sleep 2500 [ $zQX "^f0ready or not here me comes!! xD" ]
+												]
+											]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
