@@ -5,7 +5,11 @@
 
 - different map realated todo's for every language?? makes this sense at all!?
 	=> if yes change the way the todos get saved
-		=> saves all to ONE list, so it would be possible to easily delete all todos
+		=> saves all to ONE list, so it would be possible to easily delete all todos (better chances to keep the config.cfg clean)
+
+- the var "zMULTICNLIST" gets "initialized" with a EMPTY value!? => why?
+
+- for what excatly is the var zQD used?
 
 - Random Notes:
 	* search for ">HERE" to find the lines on which i work atm
@@ -18,7 +22,8 @@
 	* "Map" should be also in German "Map"
 	
 	
-	
+Changelog Beta 2:
+	-	improve the initialization of the var values
 	
 Changelog Beta 1:
 	-	a untitled-quit-button in the FAQ's removed (because its really not needed, or at least not there)
