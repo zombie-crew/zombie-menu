@@ -29,6 +29,8 @@
 	
 Changelog Beta 2:
 	-	improve the initialization of the var values
+	-   merged all of the changes of v3.11 into this fork, except the renaming of the "current" (background thoughts) and the "todo" vars
+	-   move unnecessary test-code to the clipboard.txt file
 	
 Changelog Beta 1:
 	-	a untitled-quit-button in the FAQ's removed (because its really not needed, or at least not there)
