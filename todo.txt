@@ -3,23 +3,23 @@
 
 - make a better readme
 
-- different map realated todo's for every language?? makes this sense at all!?
+- different map realated todo's for every language?? makes this sense at all?
 	=> if yes change the way the todos get saved
 		=> saves all to ONE list, so it would be possible to easily delete all todos (better chances to keep the config.cfg clean)
 
+- save the map related todo's and background thoughts into lists, not as inviduals vars
+	=> will make it easier to keep the config.cfg clean!
+	
 - the var "zMULTICNLIST" gets "initialized" with a EMPTY value!? => why? it will get initialized everytime the config gets reloaded, as long as it dont get a value
 
 - for what excatly is the var zQD used?
-
-- save the map related todo's and background thoughts into lists, not as inviduals vars
-	=> will make it easier to keep the config.cfg clean!
 
 - Random Notes:
 	-- None right now
 	
 - English Translate:
 	* "current" should be called "background"
-	* title in the NNA: keep "teleport" named "teleport" and not "teleport", because the ent its called "teleport", 
+	* title in the NNA: keep "teleport" named "teleport" and not "teleporter", because the ent its called "teleport", 
 		I expect that a lot of user would try to use /newent teleporter 
 	
 - German Translate:
