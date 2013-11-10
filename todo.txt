@@ -16,6 +16,8 @@
 	
 - English Translate:
 	* "current" should be called "background"
+	* title in the NNA: keep "teleport" named "teleport" and not "teleport", because the ent its called "teleport", 
+		I expect that a lot of user would try to use /newent teleporter 
 	
 - German Translate:
 	* "Cube" should be in German "Cube" too, think of the game name :P
