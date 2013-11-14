@@ -2,6 +2,7 @@
 - buggy-master-mode-switch
 
 - make a better readme
+	=> explain how to add other translations
 
 - different map realated todo's for every language?? makes this sense at all?
 	=> if yes change the way the todos get saved
@@ -14,8 +15,7 @@
 
 - for what excatly is the var zQD used?
 
-- Random Notes:
-	-- None right now
+- 64b servers are gone => remove the information about it
 	
 - English Translate:
 	* "current" should be called "background"
