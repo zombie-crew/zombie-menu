@@ -26,6 +26,9 @@
 	* "Cube" should be in German "Cube" too, think of the game name :P
 	* "Map" should be also in German "Map"
 	
+Changelog Beta 3:
+	- 	introduce the full dynamic ability to add languages and license information to the menu, without changing the menu itself
+	- 	better guitab titles
 	
 Changelog Beta 2:
 	-	improve the initialization of the var values
