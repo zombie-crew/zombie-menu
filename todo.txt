@@ -2,7 +2,7 @@
 - buggy-master-mode-switch
 
 - make a better readme
-	=> explain how to add other translations
+	=> explain how to add/remove other translations/license information
 
 - different map realated todo's for every language?? makes this sense at all?
 	=> if yes change the way the todos get saved
@@ -16,6 +16,8 @@
 - for what excatly is the var zQD used?
 
 - 64b servers are gone => remove the information about it
+
+- the AI is impossible to realise in cubescript, remove the hashtags-comments
 	
 - English Translate:
 	* "current" should be called "background"
@@ -27,7 +29,7 @@
 	* "Map" should be also in German "Map"
 	
 Changelog Beta 3:
-	- 	introduce the full dynamic ability to add languages and license information to the menu, without changing the menu itself
+	- 	introduce the full dynamic ability to add/remove languages and license information to the menu, without changing the menu itself
 	- 	better guitab titles
 	
 Changelog Beta 2:
