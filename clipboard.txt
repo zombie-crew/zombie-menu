@@ -21,6 +21,7 @@ case (zLICENSE) CC0 [
 	zLICENSE_+_DE = $zLICENSE_ZLIB_+_DE
 ]
 
+//##################################################
 				$zQX "^f010"
 				sleep 1000 [
 					$zQX "^f09"
@@ -55,9 +56,17 @@ guitab "nna-test"
 
 guititle "^f2test to multilang-NNA o.O"
 
-
+//##################################################
 //! this is just an idea by meow how to realize the menu. Button-descriptions do not necessarily have to be in the chosen language. Less code would be better (since they're over 60 tutorials by now o.O)
-   guilist [
+
+
+//! this should hold radio buttons to switch between translations like: es, fr and ru (since we're still testing the tutorials, please ask before translating!)
+// If you want to help to translate (any language is welcome!), please use /name WWWWWWWWWWWWWWWWWWWWWWWWW in-game to test them. This will make sure even players with awfully long names can say them, without the text going straight to console! (differs with letters, so please use W (the widest))
+// Please stay as close to the english text as possible, so someone not fluent in either language has more options to pick from and it can also teach you a few words in german, portuguese or whatever :D
+// Please use $zNNP, $zNNR, $zNNES, or something as the initial for your language (will be replaced by "say" or "echo" according to ticking the "echo only" box on NNA tab. See examples below.)
+//
+
+ guilist [
     guiradio "en " zLANG 0
     guiradio "de " zLANG 1
     guiradio "es " zLANG 2
@@ -127,3 +136,25 @@ guibutton "LAG" [
 ]
 
 ///
+
+//##################################################
+	guitab notes
+
+		if (=s (getalias zNOTES) "") [zNOTES = "zNOTES.txt"]
+		notepadfile = $zNOTES
+		guifield zNOTES -20
+		guieditor (format $zNOTES) 46 8
+		guilist [
+			guistayopen [
+		                guibutton "copy " [textfocus $zNOTES; textcopy]
+		                guibutton "paste " [textfocus $zNOTES; textpaste]
+				guibutton "clear " [textfocus $zNOTES; textclear]
+				guibutton "exec " [textfocus $zNOTES; textexec]
+				//! guibutton "say " [$zQX $zNOTES]
+				// guibutton (format (concatword "/exec " $zNOTES)) [textfocus $zNOTES; textexec]
+				guispring
+				 guibutton "load " [textfocus $zNOTES; textload $zNOTES]
+				guibutton "save " [textfocus $zNOTES; textsave $zNOTES]
+			]
+		]
+//##################################################
