@@ -47,6 +47,7 @@ Translations:
 	
 Changelogs:
 	Changelog Beta 4:
+		-	introduce functions to work easily with Cubescript Lists
 		- 	clean up the code even more
 
 	Changelog Beta 3:
