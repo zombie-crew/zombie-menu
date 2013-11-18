@@ -49,6 +49,7 @@ Changelogs:
 	Changelog Beta 4:
 		-	introduce functions to work easily with Cubescript Lists
 		- 	clean up the code even more
+		-	fix a bug in the zDeleteLanguage function
 
 	Changelog Beta 3:
 		- 	introduce the full dynamic ability to add/remove languages and license information to the menu, without changing the menu itself
