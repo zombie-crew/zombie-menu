@@ -6,7 +6,7 @@ It's also designed to make Master being less nerve-wrecking! =P
 Please feel free to improve it, or tell us what you would like to add or change (texts, functions, anything!). It's free software either! :D
 
 license
-=====
+===========
 The complete menu is licensed under the GNU GPLv2, copy available at: http://www.gnu.org/licenses/gpl-2.0.txt
 This means you can modify it, print it (please don't, for environment's sake), do whatever you want to, as long as you include credits to the crew somewhere in your usage
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation;
@@ -20,16 +20,16 @@ See the GNU General Public License for more details.
 the crew
 ==
 2012 - 2013: 
-	- meow
-	- cm|ac
-	- Mephisto
-	- Bucco
+	* meow
+	* cm|ac
+	* Mephisto
+	* Bucco
  
 2013:
-	- Imperator Chairman Miau
-	- Kroltan
-	- Nooby
-	- Kroltan
-	- Phazonmadness
-	- 8073
-	- RaZgRiZ
+	* Imperator Chairman Miau
+	* Kroltan
+	* Nooby
+	* Kroltan
+	* Phazonmadness
+	* 8073
+	* RaZgRiZ
