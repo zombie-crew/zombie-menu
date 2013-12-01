@@ -34,6 +34,12 @@ To do:
 			
 	- Reset the cool-down countdown if you press K again (suicide shortcut)
 	
+	- Possible to change the key to which the menu is binded
+	
+	- Check if zDeleteLicense is still working
+	
+	- Have a look at //! howto also remove when -5 etc?
+	
 KNOWN-BUGS:
 	- Todo's cant handle with "
 	- Totally false use of the 4th parameter of the guifield function
@@ -52,10 +58,14 @@ Translations:
 	
 	
 Changelogs:
+	Changelog Beta 5:
+		- 	fix a bug in the loading of the background thoughts/todos when the map is changed
+		-	keeping on to clean up the code
+		
 	Changelog Beta 4:
 		-	improve the gui's
 		-	introduce functions to work easily with Cubescript Lists
-		- 	[saves all todos and background thoughts (former: "currents") to ONE corresponding list]
+		- 	saves all todos and background thoughts (former: "currents") to ONE corresponding list
 		-	fix a bug in the zDeleteLanguage function
 		- 	fix a bug in the zListSaveElement function
 		- 	clean up the code even more
