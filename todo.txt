@@ -40,9 +40,8 @@ To do:
 	
 	- Have a look at //! howto also remove when -5 etc?
 	
-KNOWN-BUGS:
+ALREADY-KNOWN-BUGS:
 	- Todo's cant handle with "
-	- Totally false use of the 4th parameter of the guifield function
 	- Make the new countdown function working
 	
 Translations:
@@ -59,6 +58,7 @@ Translations:
 	
 Changelogs:
 	Changelog Beta 5:
+		- 	fix the use of the guifield's - (the 4th parameter gets executed if the value gets saved)
 		- 	fix a bug in the loading of the background thoughts/todos when the map is changed
 		-	keeping on to clean up the code
 		
