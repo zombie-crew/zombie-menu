@@ -33,6 +33,11 @@ To do:
 			
 	- Reset the cool-down countdown if you press K again (suicide shortcut)
 	
+KNOWN-BUGS:
+	- Todo's cant handle with "
+	- Totally false use of the 4th parameter of the guifield function
+	- Final the new countdown function
+	
 Translations:
 	- English Translate:
 		* "current" should be called "background"
@@ -47,9 +52,12 @@ Translations:
 	
 Changelogs:
 	Changelog Beta 4:
+		-	improve the gui's
 		-	introduce functions to work easily with Cubescript Lists
-		- 	clean up the code even more
+		- 	[saves all todos and background thoughts (former: "currents") to ONE corresponding list]
 		-	fix a bug in the zDeleteLanguage function
+		- 	fix a bug in the zListSaveElement function
+		- 	clean up the code even more
 
 	Changelog Beta 3:
 		- 	introduce the full dynamic ability to add/remove languages and license information to the menu, without changing the menu itself
