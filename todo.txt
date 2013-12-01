@@ -17,8 +17,6 @@ To do:
 
 	- for what excatly is the var zQD used?
 
-	- 64b servers are gone => remove the information about it
-
 	- the AI is impossible to realise in cubescript, remove the hashtags-comments
 		=> maybe create a remod script for this, but remove it definitly from the client script
 
@@ -58,6 +56,7 @@ Translations:
 	
 Changelogs:
 	Changelog Beta 5:
+		-	remove the info about the 64b servers, because this servers are gone
 		- 	fix the use of the guifield's - (the 4th parameter gets executed if the value gets saved)
 		- 	fix a bug in the loading of the background thoughts/todos when the map is changed
 		-	keeping on to clean up the code
