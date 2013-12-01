@@ -20,6 +20,7 @@ To do:
 	- 64b servers are gone => remove the information about it
 
 	- the AI is impossible to realise in cubescript, remove the hashtags-comments
+		=> maybe create a remod script for this, but remove it definitly from the client script
 
 	- restore the floatspeed over sessions
 		=> make it toggle able
@@ -36,7 +37,7 @@ To do:
 KNOWN-BUGS:
 	- Todo's cant handle with "
 	- Totally false use of the 4th parameter of the guifield function
-	- Final the new countdown function
+	- Make the new countdown function working
 	
 Translations:
 	- English Translate:
