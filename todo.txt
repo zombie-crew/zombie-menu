@@ -54,6 +54,7 @@ Translations:
 Changelogs:
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
+		-	improve zPandalism, now also remove too high negative values
 		-	remove the info about the 64b servers, because this servers are gone
 		- 	fix the use of the guifield's - (the 4th parameter gets executed if the value gets saved)
 		- 	fix a bug in the loading of the background thoughts/todos when the map is changed
