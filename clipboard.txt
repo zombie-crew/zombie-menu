@@ -1,0 +1,160 @@
+case (zLICENSE) CC0 [
+	zLICENSE_NAME = $zLICENSE_CC0_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_CC0_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_CC0_SHORT
+	zLICENSE_+ = $zLICENSE_CC0_+
+	zLICENSE_SHORT_DE = $zLICENSE_CC0_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_CC0_+_DE
+] GPL [
+	zLICENSE_NAME = $zLICENSE_GPLV2_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_GPLV2_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_GPLV2_SHORT
+	zLICENSE_+ = $zLICENSE_GPLV2_+
+	zLICENSE_SHORT_DE = $zLICENSE_GPLV2_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_GPLV2_+_DE
+] ZLIB [
+	zLICENSE_NAME = $zLICENSE_ZLIB_NAME
+	zLICENSE_ABBREVIATION = $zLICENSE_ZLIB_ABBREVIATION
+	zLICENSE_SHORT = $zLICENSE_ZLIB_SHORT
+	zLICENSE_+ = $zLICENSE_ZLIB_+
+	zLICENSE_SHORT_DE = $zLICENSE_ZLIB_SHORT_DE
+	zLICENSE_+_DE = $zLICENSE_ZLIB_+_DE
+]
+
+//##################################################
+				$zQX "^f010"
+				sleep 1000 [
+					$zQX "^f09"
+					sleep 1200 [
+						$zQX "^f08"
+						sleep 1100 [
+							$zQX "^f07"
+							sleep 1050 [
+								$zQX "^f06"
+								sleep 1250 [
+									$zQX "^f05"
+									sleep 1150 [
+										$zQX "^f04"
+										sleep 1140 [
+											$zQX "^f03"
+											sleep 1220 [
+												$zQX "^f02"
+												sleep 1340 [
+													$zQX "^f01"
+													sleep 2500 [ $zQX "^f0ready or not here me comes!! xD" ]
+												]
+											]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+				
+guitab "nna-test"
+
+guititle "^f2test to multilang-NNA o.O"
+
+//##################################################
+//! this is just an idea by meow how to realize the menu. Button-descriptions do not necessarily have to be in the chosen language. Less code would be better (since they're over 60 tutorials by now o.O)
+
+
+//! this should hold radio buttons to switch between translations like: es, fr and ru (since we're still testing the tutorials, please ask before translating!)
+// If you want to help to translate (any language is welcome!), please use /name WWWWWWWWWWWWWWWWWWWWWWWWW in-game to test them. This will make sure even players with awfully long names can say them, without the text going straight to console! (differs with letters, so please use W (the widest))
+// Please stay as close to the english text as possible, so someone not fluent in either language has more options to pick from and it can also teach you a few words in german, portuguese or whatever :D
+// Please use $zNNP, $zNNR, $zNNES, or something as the initial for your language (will be replaced by "say" or "echo" according to ticking the "echo only" box on NNA tab. See examples below.)
+//
+
+ guilist [
+    guiradio "en " zLANG 0
+    guiradio "de " zLANG 1
+    guiradio "es " zLANG 2
+    guiradio "ru " zLANG 3
+  ]
+
+      if (= (zLANG) 0) [how to select 1st string?]
+      if (= (zLANG) 1) [how to select 2nd string?]
+      if (= (zLANG) 2) [how to select 3rd string?]
+      if (= (zLANG) 3) [how to select 4th string?]
+
+  guilist [
+    guibutton "tut1EN " "tut1DE " "tut1ES " "tut1RU " [$zQX "tutorial 1 in english" "anleitung 1 in deutsch" "tutorial 1 in espanol" "tutorial 1 in ruski"]
+    guibutton "tut2EN " "tut2DE " "tut2ES " "tut2RU " [$zQX "tutorial 2 in english" "anleitung 2 in deutsch" "tutorial 2 in espanol" "tutorial 2 in ruski"]
+
+
+
+
+/// First try by RaZgRiZ
+guistayopen [
+guilist [
+loop i 4 [
+guialign 0 [
+guistrut 4 1
+guibutton (format "^f%2%1" (at "EN DE ES RU" $i) (? (= $zLANG $i) 6 7)) [ zLANG = @i ] 0
+]
+]
+]
+
+
+
+
+    guilist [
+        loop i 4 [
+            guilist [
+                guistrut 3 1
+                guialign 0 [
+                    guibutton (format "^f%2%1" (at "EN DE ES RU" $i) (? (= $zLANG $i) 6 7)) [ zLANG = @i ] 0
+                ]
+            ]
+        ]
+    ]
+]
+zLANG_tut0 = [
+    ["tent" "Tent"]
+    ["zelt" "Zelt"]
+    ["carpa" "Carpa"]
+    ["palatka" "Palatka"]
+]
+zLANG_get = [ at $[zLANG_tut@arg1] $zLANG $arg2 ]
+guitext (zLANG_get 0)
+    guibutton (zLANG_get 0 0) [
+        echo (format "^f7%1: ^f2/newent particles 9 457 79 0xD8F9 1736" (zLANG_get 0 1))
+    ]
+
+
+zLANG_tut1 = [
+    ["PLEASE STOP LAGGING! ~ use" "and up! ~ don't  overuse" "or" "!"]
+    ["BITTE STOP DAS LAG! ~ nutze" "und darueber! ~" "od" "nicht ueberverwenden!"]
+    ["espanol" "espanol text"]
+    ["ruski" "ruski text"]
+]
+
+
+guibutton "LAG" [
+    say (format "%1 ^fs^f2/gridpower 3^fr %2 ^fs^f7(^f2Y^f7)^fr %3 ^fs^f2/remip^fr %4" (zLANG_get 1 0) (zLANG_get 1 1) (zLANG_get 1 2) (zLANG_get 1 3))
+]
+
+///
+
+//##################################################
+	guitab notes
+
+		if (=s (getalias zNOTES) "") [zNOTES = "zNOTES.txt"]
+		notepadfile = $zNOTES
+		guifield zNOTES -20
+		guieditor (format $zNOTES) 46 8
+		guilist [
+			guistayopen [
+		                guibutton "copy " [textfocus $zNOTES; textcopy]
+		                guibutton "paste " [textfocus $zNOTES; textpaste]
+				guibutton "clear " [textfocus $zNOTES; textclear]
+				guibutton "exec " [textfocus $zNOTES; textexec]
+				//! guibutton "say " [$zQX $zNOTES]
+				// guibutton (format (concatword "/exec " $zNOTES)) [textfocus $zNOTES; textexec]
+				guispring
+				 guibutton "load " [textfocus $zNOTES; textload $zNOTES]
+				guibutton "save " [textfocus $zNOTES; textsave $zNOTES]
+			]
+		]
+//##################################################
