@@ -31,8 +31,6 @@ To do:
 	
 	- Possible to change the key to which the menu is binded
 	
-
-
 ALREADY-KNOWN-BUGS:
 	- 	Todo's cant handle with "
 	- 	Make the new countdown function working
@@ -42,6 +40,7 @@ This is a have-definitly-to-be-done-todo-before-finalize-3.2-todo:
 	-	Dynamic, multi-language NNA's!
 	- 	Check if zDeleteLicense is still working
 	-	Create wiki posts to explain how to use the language/license api
+	- 	To reduce the code even more, use zInit anywhere its useful
 	
 Translations Notes:
 	- English Translate:
@@ -56,7 +55,7 @@ Translations Notes:
 		
 Changelogs:
 	Changelog Beta 6:
-		-	[Dynamic, multi-language NNA!] 40%
+		-	[Dynamic, multi-language NNA!] 90%
 		
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
