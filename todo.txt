@@ -31,15 +31,19 @@ To do:
 	
 	- Possible to change the key to which the menu is binded
 	
-	- Check if zDeleteLicense is still working
-	
-	- Have a look at //! howto also remove when -5 etc?
-	
+
+
 ALREADY-KNOWN-BUGS:
-	- Todo's cant handle with "
-	- Make the new countdown function working
+	- 	Todo's cant handle with "
+	- 	Make the new countdown function working
+
+This is a have-definitly-to-be-done-todo-before-finalize-3.2-todo:
+	-	fix all known bugs
+	-	Dynamic, multi-language NNA's!
+	- 	Check if zDeleteLicense is still working
+	-	Create wiki posts to explain how to use the language/license api
 	
-Translations:
+Translations Notes:
 	- English Translate:
 		* "current" should be called "background"
 		* title in the NNA: keep "teleport" named "teleport" and not "teleporter", because the ent its called "teleport", 
@@ -49,9 +53,11 @@ Translations:
 		* "Cube" should be in German "Cube" too, think of the game name :P
 		* "Map" should be also in German "Map"
 	
-	
-	
+		
 Changelogs:
+	Changelog Beta 6:
+		-	[Dynamic, multi-language NNA!] 40%
+		
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
 		-	improve zPandalism, now also remove too high negative values
