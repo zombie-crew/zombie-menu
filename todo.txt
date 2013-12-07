@@ -20,7 +20,7 @@ To do:
 	- the AI is impossible to realise in cubescript, remove the hashtags-comments
 		=> maybe create a remod script for this, but remove it definitly from the client script
 
-	- would be useful too add a /clearsleep before /exec autoexec.cfg
+	- would be useful to add a /clearsleep before /exec autoexec.cfg
 		=> any arguments against this idea?
 		
 	- console scrollable with mouse wheel
@@ -32,13 +32,13 @@ To do:
 	- Possible to change the key to which the menu is binded
 	
 ALREADY-KNOWN-BUGS:
-	- 	Todo's cant handle with "
+	- 	Todo's cant handle with " (esacpe isnt a solution here o.OOO - any ideas how it would be possible?)
 	- 	Make the new countdown function working
+	-	Check the init of zLangshortcut
 
 This is a have-definitly-to-be-done-todo-before-finalize-3.2-todo:
 	-	fix all known bugs
-	-	Dynamic, multi-language NNA's!
-	- 	Check if zDeleteLicense is still working
+	-	Dynamic, multi-language NNA!
 	-	Create wiki posts to explain how to use the language/license api
 	- 	To reduce the code even more, use zInit anywhere its useful
 	
@@ -56,6 +56,7 @@ Translations Notes:
 Changelogs:
 	Changelog Beta 6:
 		-	[Dynamic, multi-language NNA!] 90%
+		-	[keep on the fanatic way to clean up the code] 10%
 		
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
@@ -79,7 +80,7 @@ Changelogs:
 		
 	Changelog Beta 2:
 		-	improve the initialization of the var values
-		-   merged all of the changes of v3.11 into this fork, except the renaming of the "current" (background thoughts) and the "todo" vars
+		-	merged all of the changes of v3.11 into this fork, except the renaming of the "current" (background thoughts) and the "todo" vars
 		-   move unnecessary test-code to the clipboard.txt file
 		
 	Changelog Beta 1:
