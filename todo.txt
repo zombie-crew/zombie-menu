@@ -6,10 +6,6 @@ To do:
 	- make a better readme
 		=> explain how to add/remove other translations/license information
 
-	- different map realated todo's for every language?? makes this sense at all?
-		=> if yes change the way the todos get saved
-			=> saves all to ONE list, so it would be possible to easily delete all todos (better chances to keep the config.cfg clean)
-
 	- save the map related todo's and background thoughts into lists, not as inviduals vars
 		=> will make it easier to keep the config.cfg clean!
 		
@@ -31,16 +27,14 @@ To do:
 	
 	- Possible to change the key to which the menu is binded
 	
-ALREADY-KNOWN-BUGS:
-	- 	[ Todo's cant handle with " (esacpe isnt a solution here o.OOO - any ideas how it would be possible?) ]
-	- 	Make the new countdown function working
-	-	Check the init of zLangshortcut
-
+	- Make the new countdown function working, its more dynamic and redurce the code
+	
+	- Todo's cant handle with " (esacpe isnt a solution here o.OOO - any ideas how it would be possible?)
+	
 This is a have-definitly-to-be-done-todo-before-finalize-3.2-todo:
 	-	fix all known bugs
 	-	Dynamic, multi-language NNA!
 	-	Create wiki posts to explain how to use the language/license api
-	- 	To reduce the code even more, use zInit anywhere its useful
 	
 Translations Notes:
 	- English Translate:
@@ -55,8 +49,10 @@ Translations Notes:
 		
 Changelogs:
 	Changelog Beta 6:
-		-	[Dynamic, multi-language NNA!] 90%
+		-	[Multi-language NNA!] 90%
 		-	[keep on the fanatic way to clean up the code] 40%
+		-	add the init of zLangShortcut to prevent errors
+		-	use zInit everywhere it's possible/useful
 		
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
