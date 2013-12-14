@@ -32,7 +32,7 @@ To do:
 	- Possible to change the key to which the menu is binded
 	
 ALREADY-KNOWN-BUGS:
-	- 	Todo's cant handle with " (esacpe isnt a solution here o.OOO - any ideas how it would be possible?)
+	- 	[ Todo's cant handle with " (esacpe isnt a solution here o.OOO - any ideas how it would be possible?) ]
 	- 	Make the new countdown function working
 	-	Check the init of zLangshortcut
 
@@ -56,7 +56,7 @@ Translations Notes:
 Changelogs:
 	Changelog Beta 6:
 		-	[Dynamic, multi-language NNA!] 90%
-		-	[keep on the fanatic way to clean up the code] 10%
+		-	[keep on the fanatic way to clean up the code] 40%
 		
 	Changelog Beta 5:
 		-	restore the floatspeed over sessions
