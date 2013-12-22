@@ -20,16 +20,16 @@ See the GNU General Public License for more details.
 The crew
 ===========
 2012 - 2013: 
-    * meow
-    * cm|ac
-    * Mephisto
-    * Bucco
+-    meow
+-    cm|ac
+-    Mephisto
+-    Bucco
  
 2013:
-    * Imperator Chairman Miau
-    * Kroltan
-    * Nooby
-    * Kroltan
-    * Phazonmadness
-    * 8073
-    * RaZgRiZ
+-    Imperator Chairman Miau
+-    Kroltan
+-    Nooby
+-    Kroltan
+-    Phazonmadness
+-    8073
+-    RaZgRiZ
